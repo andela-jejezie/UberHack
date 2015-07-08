@@ -16,6 +16,8 @@
 		<string>https://github.com/p2/OAuth2.git</string>
 		<key>4C6CD6B93362FF9E2A2B14D2AD7FA7F0AFBBB25F</key>
 		<string>https://github.com/andela-jejezie/UberHack.git</string>
+		<key>67620B5EFA902936DF04070AF595B76AB0333747</key>
+		<string>https://github.com/Alamofire/Alamofire.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>NewShare.xcodeproj</string>
@@ -27,6 +29,8 @@
 		<string>../..OAuth2</string>
 		<key>4C6CD6B93362FF9E2A2B14D2AD7FA7F0AFBBB25F</key>
 		<string>../..</string>
+		<key>67620B5EFA902936DF04070AF595B76AB0333747</key>
+		<string>../../Alamofire/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/andela-jejezie/UberHack.git</string>
@@ -36,6 +40,14 @@
 	<string>4C6CD6B93362FF9E2A2B14D2AD7FA7F0AFBBB25F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>67620B5EFA902936DF04070AF595B76AB0333747</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Alamofire</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
