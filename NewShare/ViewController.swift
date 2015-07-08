@@ -7,7 +7,8 @@
 //
 
 import UIKit
-
+import Alamofire
+import SwiftyJSON
 
 
 class ViewController: UIViewController {
@@ -23,7 +24,15 @@ class ViewController: UIViewController {
         let url = appDelegate.oauth.authorizeURL()
         UIApplication.sharedApplication().openURL(url)
         appDelegate.oauth.onAuthorize = { parameters in
-            println("Did authorize with parameters: \(parameters)")
+//            println("Did authorize with parameters: \(parameters)")
+            let accessToken:String = parameters["access_token"] as! String
+            println("access_token\(accessToken)")
+            request(.GET, "https://andelahack.herokuapp.com/uber/callback?code=" + accessToken, encoding: .JSON)
+            .responseJSON {(request, response, data, error) in
+                println(request)
+                println(data)
+                println(error)
+            }
             
 //            self.navigationController?.pushViewController(self.PersonalDriverUber_VC, animated: true)
             //On Authorization Goto another ViewController using pushViewController of navigationcontroller Method

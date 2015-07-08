@@ -8,7 +8,9 @@
 
 import UIKit
 
-class CalendarEventViewController: UIViewController {
+class CalendarEventViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    var events = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +21,19 @@ class CalendarEventViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("EventCell") as! UITableViewCell
+        let event =
+        cell.viewWithTag(1000)
+        cell.viewWithTag(1001)
+        cell.viewWithTag(1002)
+        return cell
     }
     
 
