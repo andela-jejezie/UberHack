@@ -67,10 +67,71 @@
                             <constraint firstAttribute="centerY" secondItem="Doe-9P-fPm" secondAttribute="centerY" id="sZt-SB-Ej0"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="FO7-fx-3rm" kind="show" identifier="ShareCab" id="Ybf-Rf-1he"/>
+                        <segue destination="6JA-S9-wC4" kind="show" identifier="CalendarEvent" id="AvG-ik-KZR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tOy-NQ-QvR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1096" y="247"/>
+        </scene>
+        <!--CalendarEventsView Controller-->
+        <scene sceneID="ew0-7a-yFf">
+            <objects>
+                <viewController id="6JA-S9-wC4" userLabel="CalendarEventsView Controller" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="02S-Zj-scS"/>
+                        <viewControllerLayoutGuide type="bottom" id="50h-mQ-5Wd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nBf-dZ-3pH">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="0LZ-mL-Xqy" kind="show" identifier="DetailEvent" id="Nzw-5V-aiZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lHy-AM-PIX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1770" y="247"/>
+        </scene>
+        <!--DetailEventView Controller-->
+        <scene sceneID="GPR-gT-Jmc">
+            <objects>
+                <viewController id="0LZ-mL-Xqy" userLabel="DetailEventView Controller" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hes-K7-imM"/>
+                        <viewControllerLayoutGuide type="bottom" id="xvM-Kf-htw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0Cr-Dd-ETI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sjO-2F-MT4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2448" y="247"/>
+        </scene>
+        <!--ShareCabView Controller-->
+        <scene sceneID="UCA-UL-exD">
+            <objects>
+                <viewController id="FO7-fx-3rm" userLabel="ShareCabView Controller" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ldO-LX-AC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="49r-Ig-33N"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="T0i-ht-wEZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qTo-aW-chl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1096" y="954"/>
         </scene>
     </scenes>
 </document>
