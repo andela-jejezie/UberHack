@@ -22,9 +22,9 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>10B73D0B7CE5B1CD363428FDF4A01A2A9E2F0357</key>
-		<string>../..OAuth2/SwiftKeychain/</string>
+		<string>../..OAuth2/SwiftKeychain</string>
 		<key>2045D86BC5D391C299DCC498309E722E037BFF4E</key>
-		<string>../..OAuth2/</string>
+		<string>../..OAuth2</string>
 		<key>4C6CD6B93362FF9E2A2B14D2AD7FA7F0AFBBB25F</key>
 		<string>../..</string>
 	</dict>
@@ -40,14 +40,6 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>2045D86BC5D391C299DCC498309E722E037BFF4E</string>
-			<key>IDESourceControlWCCName</key>
-			<string>OAuth2</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>10B73D0B7CE5B1CD363428FDF4A01A2A9E2F0357</string>
 			<key>IDESourceControlWCCName</key>
 			<string>SwiftKeychain</string>
@@ -59,6 +51,14 @@
 			<string>4C6CD6B93362FF9E2A2B14D2AD7FA7F0AFBBB25F</string>
 			<key>IDESourceControlWCCName</key>
 			<string>UberHack</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2045D86BC5D391C299DCC498309E722E037BFF4E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UberHackOAuth2</string>
 		</dict>
 	</array>
 </dict>
